@@ -11,10 +11,10 @@ const Navbar = () => {
                     <p className="font-bold text-pink-400 text-2xl">Happy Birthday, My Pretty Girl</p>
                 </div>
 
-                <div className="flex gap-4 items-center">
-                    <Link href="/memories" className="text-xl text-purple-300 hover:text-purple-800 hover:bg-purple-100 p-2 rounded-full hover:border hover:border-blue-600">Memories</Link>
-                    <Link href="/memories" className="text-purple-800">Memories</Link>
-                    <Link href="/memories" className="text-purple-800">Memories</Link>
+                <div className="flex gap-4 items-center pb-3">
+                    <Link href="/memories" className="text-xl text-purple-300 hover:text-purple-800 hover:bg-purple-100 p-2 rounded-full hover:border hover:border-blue-600 cursor-pointer translate-1 transition-all duration-250">Memories</Link>
+                    <Link href="/memories" className="text-xl text-purple-300 hover:text-purple-800 hover:bg-purple-100 p-2 rounded-full hover:border hover:border-blue-600 cursor-pointer translate-1 transition-all duration-250">Memories</Link>
+                    <Link href="/memories" className="text-xl text-purple-300 hover:text-purple-800 hover:bg-purple-100 p-2 rounded-full hover:border hover:border-blue-600 cursor-pointer translate-1 transition-all duration-250">Memories</Link>
                 </div>                
             </div>
         </nav>
