@@ -9,7 +9,7 @@ const AllCards = ({cards}: CardsProps) => {
     console.log(cards);
     return (
         <main>
-            <div>
+            <div className="grid lg:grid-cols-2 w-11/12 mx-auto gap-8 grid-cols-1">
                 {
                     cards.map((card: MemoType) => {
                         return <MemoCard key={card.id} card={card} />
